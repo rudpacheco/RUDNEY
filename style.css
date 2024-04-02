@@ -1,0 +1,39 @@
+/* Reset de estilos padrão do navegador */
+body, ul {
+    margin: 20;
+    padding: 20;
+  }
+  
+  /* Estilo do menu */
+  .menu {
+    background-color: #333; /* Cor de fundo do menu */
+    overflow: hidden; /* Para limpar o float */
+    text-align: center; /* Alinhar os itens ao centro */
+  }
+  
+  /* Estilo dos itens do menu */
+  .menu li {
+    display: inline-block; /* Alinhar os itens horizontalmente */
+  }
+  
+  .menu li a {
+    display: block; /* Transformar em bloco para ocupar toda a largura */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhar o texto ao centro */
+    padding: 14px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remover sublinhado padrão */
+  }
+  
+  .menu li a:hover {
+    background-color: #555; /* Cor de fundo quando passa o mouse */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 05px;
+}
